@@ -1,12 +1,12 @@
 # Meow
 - Difficulty: Very easy
 
-# Connect to the machine
+## Connect to the machine
 1. First, ensure you are connected to the Hack The Box network by configuring your VPN: `sudo openvpn [your-config-file.ovpn]`
 2. Spawn the Meow machine from the HTB dashboard. You will be assigned a target IP address.
 ![ip-address](img/ip-address.png)
 
-# Task Breakdown
+## Task Breakdown
 **1. What does the acronym VM stand for?**  
 - **Answer:** Virtual Machine  
 
@@ -34,9 +34,9 @@
 - It asks us to enter a username to login. Simply, we can use `root`, `admin` or `administrator` to check.  
 - **Answer:** root
 
-# Submit the flag
+## Submit the flag
 - At the login prompt, entering root as the username grants us access to the machine without a password.
 - Run simple command like `ls`, we can see it has a `flag.txt` file. Open it with `cat flag.txt`, the flag should be there.
 ![](img/flag.png)
-- **My flag"** b40abdfe23665f766f9c61ecba8a4c19
+- **My flag:** b40abdfe23665f766f9c61ecba8a4c19
 
