@@ -32,7 +32,7 @@
 >**Answer:** 404
 
 **8. Gobuster is one tool used to brute force directories on a webserver. What switch do we use with Gobuster to specify we're looking to discover directories, and not subdomains?**
-- Install Gobuster by running `sudo apt install gobuster`. Use the `-h` option to see all available switches..
+- Install Gobuster by running `sudo apt install gobuster`. Use the `-h` option to see all available switches.
 ![gobuster](img/gobuster.png)
 >**Answer:** dir
 

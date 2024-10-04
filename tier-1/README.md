@@ -1,4 +1,4 @@
-# Tier 1: You need to walk before youu can run
+# Tier 1: You need to walk before you can run
 
 ## Learning outcomes
 - Learn basic web exploitation techniques such as SQL injection, Server Side Template Injection, Remote File Inclusion and how to use Web/Reverse Shells.
