@@ -11,7 +11,7 @@
 - When you access the IP address via a web browser, it redirects to `unika.htb`, but you may see a **Server not found** error
 ![not-found](img/not-found.png)
 > **Answer:** unika.htb
-- To resolve this, add the IP address to your `/etc/hosts` file:. Edit this file using `sudo nano /etc/hosts`.
+- To resolve this, add the IP address to your `/etc/hosts` file. Edit this file using `sudo nano /etc/hosts`.
 ![hosts](img/hosts.png)
 - The webpage should now display like this:
 ![unika](img/unika.png)
