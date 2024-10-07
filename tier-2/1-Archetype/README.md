@@ -18,7 +18,7 @@
 > **Answer:** backups
 
 **3. What is the password identified in the file on the SMB share?**
-- Access `backups` with `smbclient \\\\[IP-Address]\\backups`. Once connected, list all files by `ls` and we notice there's `prod.dtsConfig` file.
+- Access `backups` with `smbclient \\\\[IP-Address]\\backups`. Once connected, list all files by `ls` and we notice there's `prod.dtsConfig` file.  
 ![ls](img/ls.png)
 - Download this file using `get` command
 ![get](img/get.png)
@@ -72,7 +72,7 @@
 ![console](img/console.png)
 - Now use `psexec` in Impacket collection by running `/usr/share/doc/python3-impacket/examples/psexec.py  administrator@[IP-Address]` and enter passwords. Now we can excecute as `Administrator` user   
 ![ps](img/psexe.png)
-- The flag should be located in  `C:\Users\Adminstrator\Desktop\root.txt`
+- The flag should be located in  `C:\Users\Adminstrator\Desktop\root.txt`  
 ![flag](img/flag1.png)  
 - **Root flag:** b91ccec3305e98240082d4474b848528
 
