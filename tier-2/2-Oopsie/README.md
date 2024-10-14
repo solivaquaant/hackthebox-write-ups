@@ -40,7 +40,7 @@
     - Copy shell file to working directory
     ![cp](img/cp.png)
     - Edit IP address and port in the file 
-    ![nano](img/nano.png)
+    ![nano](img/nanon.png)
     - Upload this file to the server
     ![upload](img/upload.png)
 - Run `gobuster dir -u http://[IP-Address] -w /usr/share/dirb/wordlists/small.txt -x php` to find all directories of the server

