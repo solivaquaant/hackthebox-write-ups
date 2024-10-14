@@ -77,7 +77,7 @@
 ![run](img/run-bug.png)
 - Replace `cat` command with a `bin/sh` shell to gain `root` privileges.
 ![cat](img/cat.png)
-- From now on, enter any ID will always  lead us to bin bash shell as `root` user.
+- From now on, enter any ID will always  lead us to bin bash shell as `root` user.  
 ![root](img/root.png)
 > **Answer:** cat
 
@@ -87,7 +87,7 @@
 - **User flag:** f2c74ee8db7983851ab2a96a44eb7981
 
 ## Submit root flag
-- The root flag is located at `root/root.txt`
+- The root flag is located at `root/root.txt`   
 ![flag](img/flag1.png)  
 - **Root flag:** af13b0bee69f8a877c3faf667f7beacf
 

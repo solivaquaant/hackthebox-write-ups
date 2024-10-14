@@ -89,6 +89,5 @@
 
 ## Submit root flag
 - Use SSH to login as root with the found password  and the flag is here  
-- The root flag is here!
 ![flag](img/ssh.png)  
 - **Root flag:** e50bc93c75b634e4b272d2f771c33681

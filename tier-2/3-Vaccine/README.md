@@ -56,7 +56,7 @@ session_start();
 > **Answer:** --os-shell
 
 **7. What program can the postgres user run as root using sudo?**
-- In our scan report, we can see that this machine has port 80 open. Visit `http://[IP-Address]` and log in with `admin` and `qwerty789`. This leads to the Visit http://[IP-Address] and log in with admin and qwerty789. This leads to the Admin Dashboard.  
+- In our scan report, we can see that this machine has port 80 open. Visit `http://[IP-Address]` and log in with `admin` and `qwerty789`. This leads to the **Admin Dashboard**.  
 ![dash](img/dash.png)
 - This page shows a table with information such as name, type,... of cars, and also has a search box.
 - When we type some text in this box and click **search**, the parameter in the URL will change to our text  
