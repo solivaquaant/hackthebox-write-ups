@@ -80,6 +80,7 @@
 
 **12. What is the password for the root user?**
 - Now we can login with as `administrator` with the new password. Navitigate to **Settings**>**Device Authentication** to find the root password.  
+![root](img/root.png)
 > **Answer:** NotACrackablePassword4U2022
 
 ## Submit user flag
